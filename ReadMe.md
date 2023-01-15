@@ -10,7 +10,7 @@ This project uses [GitHub Packages](https://github.com/features/packages).
 # First, Create the nuget.config file (make sure it's ignored in your .gitignore settings)
 dotnet new nugetconfig
 # Next, add the source for accessing your package
-dotnet nuget add source https://nuget.pkg.github.com/username/index.json -n "github"
+dotnet nuget add source https://nuget.pkg.github.com/dagilleland/index.json -n "github"
 # Build your solution
 dotnet build --configuration Release
 # Generate your package
